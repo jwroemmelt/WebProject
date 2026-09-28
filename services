@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infotix | Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Infotix logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="products.html">Products</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1 class="page-heading"><strong>What</strong> we can do for you</h1>
+
+        <!-- All four sections sit inside one div.
+             That div is what creates the four columns.
+             Do not put <hr> between them. -->
+        <div class="grid">
+
+            <section>
+                <h2>Software development</h2>
+                <p>
+                    Custom applications built around how your team already
+                    works, not around a template.
+                </p>
+                <img src="images/software.jpg"
+                     alt="A developer working at a laptop in an office">
+            </section>
+
+            <section>
+                <h2>Cloud solutions</h2>
+                <p>
+                    Migration and architecture that cuts running costs and
+                    holds up when traffic spikes.
+                </p>
+                <img src="images/cloud.jpg"
+                     alt="An engineer inspecting racks in a server room">
+            </section>
+
+            <section>
+                <h2>Managed services</h2>
+                <p>
+                    Support and monitoring so your staff spend their time on
+                    the work you hired them for.
+                </p>
+                <img src="images/support.jpg"
+                     alt="A support team working at their desks">
+            </section>
+
+            <section>
+                <h2>Process optimization</h2>
+                <p>
+                    A review of where your workflows lose time, and a plan for
+                    fixing the expensive parts first.
+                </p>
+                <img src="images/consulting.jpg"
+                     alt="Two colleagues reviewing figures on a tablet">
+            </section>
+
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            25 Summers Street, Oyster Bay<br>
+            New York 11771, USA
+        </p>
+
+        <ul>
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="vision.html">Our Vision</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="internships.html">Internships</a></li>
+        </ul>
+
+        <p>
+            (917) 222-2222<br>
+            <a href="mailto:info@infotix.com">info@infotix.com</a>
+        </p>
+    </footer>
+
+</body>
+</html>
